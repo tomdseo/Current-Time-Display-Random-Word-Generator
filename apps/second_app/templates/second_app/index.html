@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Word Generator</title>
+    {%  load static %}
+    <link rel="stylesheet" href="{% static 'second_app/css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+     <p id="title">Random Word (attempt #{{request.session.attempt}})</p>
+     <div class="main_box"><p>{{request.session.random}}</p></div>
+    <form action="/random_word", method="POST">
+        {% csrf_token %}
+        <button id="submitBtn" class="btn btn-outline-primary" type="submit">Generate</button>
+    </form>
+</body>
+</html>

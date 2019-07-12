@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Date and Time</title>
+    {%  load static %}
+    <link rel="stylesheet" href="{% static 'first_app/css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="title_box"><p>The current time and date:</p></div>
+    <div class="main_box">
+        <p id="date">{{ date }}</p>
+        <p id="time">{{ time }}</p>
+    </div>
+
+  </body>
+</html>

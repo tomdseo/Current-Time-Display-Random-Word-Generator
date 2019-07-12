@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 50px;
+    background-color: skyblue;
+}
+
+.title_box {
+    margin: auto;
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid white;
+    font-size: 20px;
+    vertical-align: center;
+    border-radius: 5px;
+}
+
+.title_box p {
+    margin-top: 4%;
+    color: white;
+}
+
+.main_box {
+    margin: auto;
+    margin-top: 50px;
+    width: 900px;
+    height: 300px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 10px;
+    color: moccasin;
+}
+
+.main_box p{
+    margin-top: 3%;
+    color: white;
+}
+
+#date {
+    font-size: 100px;
+}
+
+#time {
+    font-size: 70px;
+}

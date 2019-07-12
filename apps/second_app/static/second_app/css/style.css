@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 50px;
+    background-color: skyblue;
+}
+
+.main_box {
+    margin: auto;
+    width: 800px;
+    height: 200px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.main_box p{
+    margin-top: 8%;
+    color: white;
+    font-size: 50px;
+}
+
+#title {
+    margin: auto;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    vertical-align: center;
+    margin-top: 5%;
+    color: white;
+}
+
+#submitBtn {
+    margin-left: 900px;
+    margin-top: 100px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: skyblue;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: larger;
+}
